@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Game</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>quiz game</h1>
+    <h2>juego de capitales</h2>
+  </header>
+  <div class="container">
+    <section>
+      <form id="preguntas">
+        <article>
+          <h3>1- ¿Cuál es la capital de Italia?</h3>
+          <label for="turin"><input type="radio" id="turin" value="turin" name="capital-italia">
+            Turín</label>
+
+          <label for="napoles">
+            <input type="radio" id="napoles" value="napoles" name="capital-italia">
+            Nápoles</label>
+
+          <label for="roma">
+            <input type="radio" id="roma" value="roma" name="capital-italia">
+            Roma</label>
+
+        </article>
+
+        <article>
+          <h3>2- ¿Cuál es la capital de Noruega?</h3>
+
+          <label for="oslo">
+            <input type="radio" id="oslo" value="oslo" name="capital-noruega">
+            Oslo</label>
+
+
+          <label for="bucarest">
+            <input type="radio" id="bucarest" value="bucarest" name="capital-noruega">
+            Bucarest</label>
+
+          <label for="madrid">
+            <input type="radio" id="madrid" value="madrid" name="capital-noruega">
+            Madrid</label>
+
+        </article>
+
+        <article>
+          <h3>3- ¿Cuál es la capital de Perú?</h3>
+
+          <label for="la_paz">
+            <input type="radio" id="la_paz" value="la_paz" name="capital-peru">
+            La Paz</label>
+
+          <label for="ciudad_del_peru">
+            <input type="radio" id="ciudad_del_peru" value="ciudad_del_peru" name="capital-peru">
+            Ciudad Del Peru</label>
+
+          <label for="lima">
+            <input type="radio" id="lima" value="lima" name="capital-peru">
+            Lima</label>
+
+        </article>
+
+        <article>
+          <h3>4- ¿Cuál es la capital de Suecia?</h3>
+
+          <label for="gotemburgo">
+            <input type="radio" id="gotemburgo" value="gotemburgo" name="capital-suecia">
+            Gotemburgo</label>
+
+          <label for="estocolmo">
+            <input type="radio" id="estocolmo" value="estocolmo" name="capital-suecia">
+            Estocolmo</label>
+
+          <label for="lund">
+            <input type="radio" id="lund" value="lund" name="capital-suecia">
+            Lund</label>
+
+        </article>
+
+        <article>
+          <h3>5- ¿Cuál es la capital de Canadá?</h3>
+
+          <label for="candberra">
+            <input type="radio" id="candberra" value="candberra" name="capital-canada">
+            Candberra</label>
+
+          <label for="toronto">
+            <input type="radio" id="toronto" value="toronto" name="capital-canada">
+            Toronto</label>
+
+          <label for="ottawa">
+            <input type="radio" id="ottawa" value="ottawa" name="capital-canada">
+            Ottawa</label>
+
+        </article>
+
+        <input onclick="corregir()" type="button" value="corregir">
+      </form>
+      <p class="aciertos">Cantidad acertadas: <span id="aciertos"></span></p>
+    </section>
+  </div>
+</body>
+
+<script src="main.js"></script>
+
+</html>
